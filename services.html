@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    
+    <link rel="stylesheet" href="servicesStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<header>
+   
+
+  <h1 class="logo">GT Detailing </h1>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+ 
+    </ul>
+  </nav>
+  <label for="nav-toggle" class="nav-toggle-label">
+    <span></span>
+  </label>
+</header>
+  <body>
+      
+  
+<div class="mobile">
+  <div class="firstSection">
+
+<div class="striped-border">
+
+  
+<div class="interior">
+    <h4>Interior Detailing</h4>
+    <h5>Full Interior</h5>
+    <div class="list">
+    <ul>
+        <li>Air compressor to loosen debris </li>
+        <li>Vacuum</li>
+        <li>Shampoo of Carpets</li>
+        <li>Steam Clean</li>
+        <li>Protection Application</li>
+        <li>Windows & Mirrors</li>
+        <li>Door Jams</li>
+        <li>Appliances Cleaned</li>
+        <li>Shampoo and condition of seats</li>
+        </ul>
+    </div>
+</div>
+<p>*Custom Package also available, Choose anything from the full interior detail and create your own.</p>
+</div>
+<style>
+  .button {
+    
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+    
+    
+  }
+  
+  
+  .button5 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #555555;
+  }
+  
+  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
+  </style>
+
+  
+  
+<div class="moving">
+  
+    <form action="Interior.html" method="get">
+    
+<button class="button button5" button type = "submit"> Interior Before & After Page </button>
+</form>
+</div>
+
+
+
+
+</div>
+<hr>
+<div class="secondSection">
+
+    <div class="interior">
+        <h4>Exterior Detailing </h4>
+        <h5>Full Exterior</h5>
+        <div class="list">
+        <ul>
+            <li>Hand Wash & Dry</li>
+            <li>Hand Applied Wax</li>
+            <li>Clay Bar For Deep Clean of Paint</li>
+            <li>Bug and Tar Removal</li>
+            <li>Full Wheel Treatment</li>
+            </ul>
+        </div>
+    
+    <p>Paint Correction: $300+
+        <br>
+        <br>
+        
+        <br>
+        Ceramic Coating/Paint Correction: $400+
+    </p>
+    </div>
+    <style>
+      .button {
+    
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+       
+        
+      }
+      
+      
+      .button5 {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid #555555;
+      }
+      
+      .button5:hover {
+        background-color: #555555;
+        color: white;
+      }
+      </style>
+    
+      
+      
+    
+    <div class="moving"> 
+        <form action="Interior.html" method="get">
+        
+   <button class="button button5" button type = "submit"> Exterior Before & After Page </button>
+  </form>
+  </div>
+ 
+</div>
+    <hr>
+</div>
+
+
+
+
+
+
+
+
+<div class="pc">
+
+  <div class="firstSection">
+    <section id="section-right">
+
+        <div class="picture">
+
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/interior1.jpg" style="width:100%">
+            
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/interior2.jpg" style="width:100%">
+            
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext"></div>
+              <img src="images/interior3.jpg" style="width:100%">
+            
+            </div>
+            
+            
+            
+            </div>
+            
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            </div>
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+</section>
+
+    <section id="section-left"> 
+      
+        <div class="striped-border">
+    
+    
+            <div class="interior">
+                <h4>Interior Detailing: $50+</h4>
+                <h5>Full Interior</h5>
+                <div class="list">
+                <ul>
+                    <li>Air compressor to loosen debris </li>
+                    <li>Vacuum</li>
+                    <li>Shampoo of Carpets</li>
+                    <li>Steam Clean</li>
+                    <li>Protection Application</li>
+                    <li>Windows & Mirrors</li>
+                    <li>Door Jams</li>
+                    <li>Appliances Cleaned</li>
+                    <li>Shampoo and condition of seats</li>
+                    </ul>
+
+                    
+                      
+                </div>
+                
+            </div>
+            <p>*Custom Package also available, Choose anything from the full interior detail and create your own.</p>
+            </div>
+            
+            <style>
+              .button {
+            
+                border: none;
+                color: white;
+                padding: 16px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                transition-duration: 0.4s;
+                cursor: pointer;
+                margin-left: 30%;
+                
+              }
+              
+              
+              .button5 {
+                background-color: rgb(0, 0, 0);
+                color: rgb(255, 255, 255);
+                border: 2px solid #555555;
+              }
+              
+              .button5:hover {
+                background-color: #555555;
+                color: white;
+              }
+              </style>
+            
+              
+              
+            
+              <div class="padder">
+                <form action="Interior.html" method="get">
+                
+           <button class="button button5" button type = "submit"> Interior Before & After Page </button>
+          </form>
+         
+               
+            <br>
+            <br>
+            <br>
+          </div>
+    </section>
+  </div>
+    <hr>
+
+    <div class="secondSection">
+    <section id="section-right">
+
+        <div class="picture">
+
+            <div class="slideshow-container">
+            
+            <div class="mySlidess fade">
+              <div class="numbertext"></div>
+              <img src="images/extt11.jpg" style="width:100%">
+            
+            </div>
+            
+            <div class="mySlidess fade">
+              <div class="numbertext"></div>
+              <img src="images/extt2.jpg " style="width:100%">
+            
+            </div>
+            
+            <div class="mySlidess fade">
+              <div class="numbertext"></div>
+              <img src="images/extt3.jpg" style="width:100%">
+            
+            </div>
+            
+            
+            
+            </div>
+            
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            </div>
+            <script>
+            var slideIndex = 0;
+            showSlidess();
+            
+            function showSlidess() {
+              var i;
+              var slides = document.getElementsByClassName("mySlidess");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlidess, 2000); // Change image every 2 seconds
+            }
+            </script>
+</section>
+
+    <section id="section-left"> 
+        <div class="interior">
+            <h4>Exterior Detailing: $50+</h4>
+            <h5>Full Exterior</h5>
+            <div class="list">
+            <ul>
+                <li>Hand Wash & Dry</li>
+                <li>Hand Applied Wax</li>
+                <li>Clay Bar For Deep Clean of Paint</li>
+                <li>Bug and Tar Removal</li>
+                <li>Full Wheel Treatment</li>
+                </ul>
+            </div>
+        
+            <p>Paint Correction: $300$
+              <br>
+              <br>
+              
+              <br>
+              Ceramic Coating/Paint Correction: $400+
+          </p>
+          </div>
+     
+    
+   
+        <style>
+          .button {
+            
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            margin-left: 31%;
+            
+          }
+          
+          
+          .button5 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 2px solid #555555;
+          }
+          
+          .button5:hover {
+            background-color: #555555;
+            color: white;
+          }
+          </style>
+        
+          
+          
+        
+        <form action="exterior.html" method="get">
+                
+          <button class="button button5" button type = "submit"> Exterior Before & After Page </button>
+         </form>
+        <br>
+    <br>
+    <br>
+     
+    </section>
+    </div>
+  </div>
+</body>
+</html>

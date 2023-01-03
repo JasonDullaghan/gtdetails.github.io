@@ -1,0 +1,515 @@
+hr {
+  margin: 0;
+}
+img {
+  max-width: 90%;
+}
+:root {
+    --background: rgb(0, 0, 0);
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+      margin: 0;
+      background: rgb(0, 0, 0);
+      font-family: 'Archivo Narrow', sans-serif;
+      font-weight: 400;
+  }
+ h2, h3, h4, h5, p {
+     margin: 0;
+     
+ }
+
+ h1 {
+   color: white;
+ }
+.gallery {
+    
+    text-align: center;
+   
+    color: white;
+}
+.galleryandexterior {
+
+height: auto;
+padding-top: 5%;
+}
+h2{
+    padding-top: 5%;
+    font-size: 4rem;
+}
+.coating h3{
+    padding-top: 60%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.coating img {
+    padding-top: 30%;
+    padding-left: 15%;
+}
+
+.coating {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    padding-bottom: 10%;
+
+    color: #ffffff;
+    background-image: url(images/ext656.jpg);
+    background-color: rgb(39, 38, 38);
+    background-blend-mode: multiply;
+    background-size: cover;
+    
+   
+}
+
+.boats h3{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.gridBoat img {
+    padding-top: 10%;
+    padding-left: 13%;
+}
+
+.gridBoat {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+   
+}
+
+.boats {
+  
+  color: #ffffff;
+  background-image: url(images/backround4.jpg);
+  background-color: rgb(39, 38, 38);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 10%;
+    /* background-color: antiquewhite; */
+}
+
+.paint h3{
+    padding-top: 45%;
+    font-size: 4rem;
+ 
+    
+}
+
+.paint img {
+    padding-top: 15%;
+    padding-left: 10%;
+}
+
+.paint {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    height: auto;
+    color: white;
+    text-align: center;
+
+    color: #ffffff;
+    background-image: url(images/backround7.jpg);
+    background-color: rgb(39, 38, 38);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10%;
+    
+}
+
+.ShampooAndMaintenceWash1 h3{
+    padding-top: 5%;
+    font-size: 4rem;
+    padding-bottom: 3%;
+ 
+    
+}
+
+.ShampooAndMaintenceWash img {
+    padding-top: 0%;
+  padding-left: 10%;
+}
+
+.ShampooAndMaintenceWash {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+   
+   
+}
+
+.ShampooAndMaintenceWash1 {
+ 
+  color: #ffffff;
+  background-image: url(images/backround2.jpg);
+  background-color: rgb(39, 38, 38);
+  background-blend-mode: multiply;
+  background-size: cover;
+  
+    padding-bottom: 10%;
+    color: white;
+    text-align: center;
+   
+}
+
+.interior {
+ 
+  color: #ffffff;
+  background-image: url(images/backround3.jpg);
+  background-color: rgb(39, 38, 38);
+  background-blend-mode: multiply;
+  background-size: cover;
+  
+    /* background-color: rgb(49, 77, 77); */
+   padding-bottom: 5%;
+    color: white;
+    text-align: center;
+   
+}
+
+.interior h3{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 4rem;
+ 
+    
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  img {
+    max-width: 90%;
+    padding-bottom: 10%;
+   
+  }
+  .gallery {
+    
+    text-align: center;
+   
+    color: white;
+}
+.galleryandexterior {
+/* background-color: aquamarine; */
+height: auto;
+padding-top: 20%;
+}
+h2{
+    padding-top: 5%;
+    font-size: 4rem;
+}
+.coating h3{
+    padding-top: 15%;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.coating img {
+    padding-top: 5%;
+    padding-left: 10%;
+   
+}
+
+.coating {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+}
+
+.boats h3{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 5%;
+}
+
+.gridBoat img {
+    padding-top: 0%;
+    padding-left: 13%;
+}
+
+.gridBoat {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    
+   
+}
+
+.boats {
+  height: auto;
+    /* background-color: antiquewhite; */
+}
+
+.paint h3{
+  
+    font-size: 2rem;
+  padding-top: 10%;
+  padding-bottom: 5%;
+    
+}
+
+.paint img {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.paint {
+    display:grid;
+    grid-template-columns: 1fr ;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding-top: 0%;
+}
+
+.ShampooAndMaintenceWash1 h3{
+    padding-top: 5%;
+    font-size: 2rem;
+    padding-bottom: 5%;
+    
+}
+
+.ShampooAndMaintenceWash img {
+    padding-top: 0%;
+    padding-left: 13%;
+}
+
+.ShampooAndMaintenceWash {
+    display:grid;
+    grid-template-columns: 1fr;
+    
+   
+   
+}
+
+.ShampooAndMaintenceWash1 {
+ 
+    
+  
+    height: auto;
+    color: white;
+    text-align: center;
+   
+}
+
+.interior {
+ 
+    
+    /* background-color: rgb(49, 77, 77); */
+    height: auto;
+    color: white;
+    text-align: center;
+   
+}
+
+.interior h3{
+    padding-top: 5%;
+    font-size: 2rem;
+    padding-bottom: 5%;
+ 
+    
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAV */
+
+header {
+    background: var(--background);
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  
+  }
+  
+     .nav-toggle {
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+    }
+    
+    .nav-toggle:focus ~ .nav-toggle-label {
+      outline: 3px solid rgba(lightblue, .75);
+    }
+    
+    .nav-toggle-label {
+      position: absolute;
+      top: 0;
+      left: 0;
+      margin-left: 1em;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      display: block;
+      background: white;
+      height: 2px;
+      width: 2em;
+      border-radius: 2px;
+      position: relative;
+    }
+    
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+      content: '';
+      position: absolute;
+    }
+    
+    .nav-toggle-label span::before {
+      bottom: 7px;
+    }
+    
+    .nav-toggle-label span::after {
+      top: 7px;
+    }
+    
+    nav {
+      position: absolute;
+      text-align: left;
+      top: 100%;
+      left: 0;
+      background: var(--background);
+      width: 100%;
+      transform: scale(1, 0);
+      transform-origin: top;
+      transition: transform 400ms ease-in-out;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    
+    nav li {
+      margin-bottom: 1em;
+      margin-left: 1em;
+    }
+    
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      opacity: 0;
+      transition: opacity 150ms ease-in-out;
+    }
+    
+    nav a:hover {
+      color: rgb(158, 158, 158);
+    }
+    
+    .nav-toggle:checked ~ nav {
+      transform: scale(1,1);
+    }
+    
+    .nav-toggle:checked ~ nav a {
+      opacity: 1;
+      transition: opacity 250ms ease-in-out 250ms;
+    }
+  
+  
+  
+    @media screen and (min-width: 1050px) {
+      .nav-toggle-label {
+        display: none;
+      }
+    
+    
+      header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+      }
+      
+      .logo {
+        grid-column: 2 / 3;
+      }
+      
+      nav {
+       /* this causes issues with Edge, since it's unsupported */
+        
+        /* the following lines are not from my video, but add Edge support */
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+        /* end Edge support stuff */
+        
+        grid-column: 3 / 4;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      
+      nav ul {
+        display: flex;
+      }
+      
+      nav li {
+        margin-left: 3em;
+        margin-bottom: 0;
+      }
+      
+      nav a {
+        opacity: 1;
+        position: relative;
+      }
+      
+      nav a::before {
+        content: '';
+        display: block;
+        height: 5px;
+        background: black;
+        position: absolute;
+        top: -.75em;
+        left: 0;
+        right: 0;
+        transform: scale(0, 1);
+        transition: transform ease-in-out 250ms;
+      }
+      
+      nav a:hover::before {
+        transform: scale(1,1);
+      }
+    
+     
+    }
+    
